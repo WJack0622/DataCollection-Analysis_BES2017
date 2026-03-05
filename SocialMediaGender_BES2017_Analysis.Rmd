@@ -4,7 +4,8 @@ author: "HaoyangWang"
 date: "2026-03-05"
 output: html_document
 ---
-
+library(readr)
+socmed <- read_csv('BES-2017-f2f-gender-fb-tw.csv')
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -28,3 +29,7 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
